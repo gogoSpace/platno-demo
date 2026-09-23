@@ -13,7 +13,7 @@ final class StoryTemplate
     {
         return ['version' => 1, 'blocks' => [
             $this->blocks->make('demo.hero', [
-                'eyebrow' => 'A coastal journal / No. 03',
+                'eyebrow' => 'A coastal journal',
                 'title' => "The quiet\nbetween places.",
                 'description' => 'A few days at the edge of the water. No particular plan. Nothing we needed to bring home.',
                 'image' => $imageIdentifier,

@@ -18,7 +18,7 @@ final class ProductTemplate
                 'description' => 'A generous curve. A colour with presence. A familiar object, seen a little differently.',
                 'image' => $imageIdentifier,
                 'alt' => 'A cobalt blue ceramic pitcher with a loop handle beside an ivory bowl on limestone plinths.',
-                'caption' => 'Edition 01 — Cobalt & chalk',
+                'caption' => 'Cobalt & chalk',
                 'variant' => 'product',
             ]),
             $this->blocks->make('columns', [

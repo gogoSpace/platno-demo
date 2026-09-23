@@ -1,12 +1,15 @@
-# Platno demo
+# Platno demo · Experimental Preview
 
-**Experimental Preview · Pre-alpha**
+> [!WARNING]
+> **Pre-alpha prototype. Not ready for production.**
+>
+> This is a temporary playground for an experimental package. APIs, plugin contracts and saved-content formats may change without backward compatibility.
+>
+> **By default, every demo workspace expires 24 hours after creation, including its published pages and uploads.** Use disposable content only.
 
 [![Checks](https://github.com/gogoSpace/platno-demo/actions/workflows/checks.yml/badge.svg)](https://github.com/gogoSpace/platno-demo/actions/workflows/checks.yml)
 
 A temporary playground for [Platno](https://github.com/gogoSpace/laravel-platno), the open-source visual page editor for Laravel. Choose a designed page, edit real content blocks, upload an image, and publish a read-only page. This application is a working package consumer and an integration example.
-
-The demo and package are under active development. Their interfaces may change. This is not a production-ready CMS or a place to keep important content.
 
 ![Platno's live demo home page](docs/images/home.jpg)
 

@@ -35,6 +35,8 @@ php artisan schedule:list
 
 Install the HTTP virtual host first. Point the domain's A record to this server, and publish an AAAA record only if it reaches the same virtual host. Obtain a certificate using the `shared/acme` webroot, then install the HTTPS virtual host. Validate Apache and FPM configuration before reloading either service. Enable certificate renewal through the server's certificate manager.
 
+For Certbot with the webroot authenticator, install `platno-demo-renewal.sh` as `/etc/letsencrypt/renewal-hooks/deploy/platno-demo` with root ownership and mode `0755`. Adapt its certificate lineage if you change the domain. The hook validates and reloads Apache after a successful renewal of this certificate, so Apache starts serving the renewed certificate. An active renewal timer alone does not reload a manually configured virtual host. Verify renewal with `certbot renew --cert-name platno.gogospace.cz --dry-run`.
+
 Run Laravel's scheduler every minute under the same process user:
 
 ```cron

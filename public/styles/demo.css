@@ -182,19 +182,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
     padding: 36px var(--gutter) 50px
 }
 
-.intro-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px
-}
-
-.edition {
-    font: 10px/1.5 monospace;
-    color: var(--muted);
-    letter-spacing: .05em
-}
-
 .intro-heading {
     display: flex;
     justify-content: space-between;
@@ -458,19 +445,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
 }
 
 .template-heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 19px 0 8px
-}
-
-.template-heading h3 {
+    margin: 19px 0 8px;
     font-size: 23px
-}
-
-.template-heading>span {
-    font: 10px monospace;
-    color: var(--muted)
 }
 
 .template-item>p {
@@ -503,14 +479,9 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
     padding: 28px 40px 0 0
 }
 
-.process-list li>span {
-    font: 11px monospace;
-    color: var(--accent)
-}
-
 .process-list h3 {
     font-size: 29px;
-    margin: 24px 0 16px
+    margin: 0 0 16px
 }
 
 .process-list p {
@@ -912,10 +883,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
         font-size: 80px
     }
 
-    .edition {
-        display: none
-    }
-
     .hero-preview {
         height: 570px
     }
@@ -924,7 +891,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
         gap: 15px
     }
 
-    .template-heading h3 {
+    .template-heading {
         font-size: 20px
     }
 
@@ -1004,7 +971,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
         padding-bottom: 30px
     }
 
-    .intro-top .eyebrow {
+    .intro > .eyebrow {
         font-size: 9px
     }
 
@@ -1133,7 +1100,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
         margin-top: 13px
     }
 
-    .template-heading h3 {
+    .template-heading {
         font-size: 25px
     }
 
@@ -1147,14 +1114,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
 
     .process-list li {
         padding: 22px 0;
-        display: grid;
-        grid-template-columns: 35px 1fr;
-        gap: 10px;
         border-bottom: 1px solid var(--line)
-    }
-
-    .process-list li>span {
-        padding-top: 7px
     }
 
     .process-list h3 {
@@ -1163,8 +1123,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible 
     }
 
     .process-list p {
-        grid-column: 2;
-        margin: 4px 0 0;
+        margin: 10px 0 0;
         max-width: none;
         font-size: 12px
     }

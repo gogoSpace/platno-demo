@@ -35,7 +35,7 @@ final class StudioTemplate
             $this->blocks->make('group', [
                 'tone' => 'muted',
                 'children' => [
-                    $this->blocks->make('text', ['text' => 'OUR PRACTICE / 01—02']),
+                    $this->blocks->make('text', ['text' => 'OUR PRACTICE']),
                     $this->blocks->make('columns', [
                         'left' => [
                             $this->blocks->make('heading', ['text' => 'Identities with character.', 'level' => 'h3']),
