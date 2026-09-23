@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/gogoSpace/platno-demo/security/advisories/new
+    about: Keep security reports and sensitive details out of public issues.
+  - name: Platno package issues
+    url: https://github.com/gogoSpace/laravel-platno/issues
+    about: Report editor or package API issues in the package repository.
